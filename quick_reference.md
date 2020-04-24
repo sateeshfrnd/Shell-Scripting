@@ -1,3 +1,14 @@
+## Check is the command executed successfully or not
+```
+if [[ "$?" == "0" ]];then
+  echo "Successfully executed"
+else
+  echo "Failed"
+fi
+
+```
+
+
 ## Converting the case of the String:
 ```
 name='learning Shell scripting'
