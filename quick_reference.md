@@ -1,3 +1,12 @@
+## Get the number of command line arguments passed
+```
+echo "Total Number of Arguments = $#"
+
+if [ $# -lt 1 ]; then
+  echo "No Arguments passed"
+fi
+```
+
 ## Check is the command executed successfully or not
 ```
 if [[ "$?" == "0" ]];then
